@@ -1,0 +1,14 @@
+#!/bin/sh /etc/rc.common
+ 
+START=100
+STOP=15
+ 
+start() {        
+        echo starting...
+        sleep 90
+	      sh /root/xray_service.sh
+}                 
+ 
+stop() {          
+        echo stopping...
+}
