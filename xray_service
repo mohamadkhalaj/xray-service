@@ -6,7 +6,7 @@ STOP=15
 start() {        
         echo starting...
         sleep 90
-	      sh /root/xray_service.sh
+	sh /root/xray_service.sh
 }                 
  
 stop() {          
