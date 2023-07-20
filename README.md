@@ -4,5 +4,5 @@ This script creates a service that automatically downloads Xray Core when the ro
 cd /tmp
 wget https://raw.githubusercontent.com/mohamadkhalaj/xray-service/main/install.sh
 chmod +x install.sh
-./install.sh
+sh install.sh
 ```
