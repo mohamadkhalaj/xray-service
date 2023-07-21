@@ -10,4 +10,4 @@ opkg install xray.ipk -d ram
 rm xray.ipk
 echo Restarting passwall service ...
 service passwall restart
-echo Finished\!
+echo Finished.
