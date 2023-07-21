@@ -15,6 +15,10 @@ wget https://raw.githubusercontent.com/mohamadkhalaj/xray-service/main/install.s
 chmod +x install.sh
 sh install.sh
 ```
+OR
+```
+cd /tmp && wget https://raw.githubusercontent.com/mohamadkhalaj/xray-service/main/install.sh && chmod +x install.sh && sh install.sh
+```
 ## Step 2 - configure the Xray-core path
 Change the `Xray App Path` to `/tmp/usr/bin/xray`
 
