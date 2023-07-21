@@ -27,6 +27,6 @@ sh /root/xray_service.sh
 ```
 
 ## Step 3 - configure the Xray-core path
-Change the `Xray App Path` to `/tmp/usr/bin/xray`
+Change the `Xray App Path` to `/tmp/usr/bin/xray` and click `Save & Apply` button.
 
 <img width="1392" alt="Untitled-1" src="https://github.com/mohamadkhalaj/xray-service/assets/62938359/c40594ec-ddba-4a51-bf9a-358229177df8">
