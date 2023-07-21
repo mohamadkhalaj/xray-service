@@ -2,7 +2,8 @@
 This script creates a service that automatically downloads Xray Core when the router boots up. It sets up Xray as a service, ensuring it runs consistently on startup.
 
 ## Step 0 - install Passwall
-First of all, you should install Passwall. You can follow the instructions in this repository: https://github.com/MoetaYuko/openwrt-passwall-build.
+The instructions provided suggest installing Passwall on your device. The recommended method is to follow the instructions in the repository ["MoetaYuko/openwrt-passwall-build"](https://github.com/MoetaYuko/openwrt-passwall-build). Alternatively, if you know the exact model and architecture of your device, you can download the latest release from the binary files of the Passwall main repository at "[xiaorouji/openwrt-passwall](https://github.com/xiaorouji/openwrt-passwall
+)".
 
 ## Step 1 - install Xray-core
 ```
