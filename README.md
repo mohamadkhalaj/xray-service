@@ -19,7 +19,14 @@ OR
 ```
 cd /tmp && wget https://raw.githubusercontent.com/mohamadkhalaj/xray-service/main/install.sh && chmod +x install.sh && sh install.sh
 ```
-## Step 2 - configure the Xray-core path
+
+## Step 2 - Apply changes
+To apply the changes, you can run the following command to download the Xray binary file. Alternatively, you can simply reboot your device and wait for 90 seconds after boot for the download to start.
+```
+sh /root/xray_service.sh
+```
+
+## Step 3 - configure the Xray-core path
 Change the `Xray App Path` to `/tmp/usr/bin/xray`
 
 <img width="1392" alt="Untitled-1" src="https://github.com/mohamadkhalaj/xray-service/assets/62938359/c40594ec-ddba-4a51-bf9a-358229177df8">
