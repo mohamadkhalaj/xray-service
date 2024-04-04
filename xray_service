@@ -10,7 +10,7 @@ start() {
     echo "Starting xray_service..."
     sleep "$DELAY"
     if [ -x "$SERVICE_SCRIPT" ]; then
-        "$SERVICE_SCRIPT" start
+        sh "$SERVICE_SCRIPT"
         echo "xray_service started."
     else
         echo "Error: Service script '$SERVICE_SCRIPT' not found or not executable."
