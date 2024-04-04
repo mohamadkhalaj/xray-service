@@ -1,14 +1,30 @@
 #!/bin/sh /etc/rc.common
- 
+
 START=99
 STOP=15
- 
-start() {        
-        echo starting...
-        sleep 90
-	sh /root/xray_service.sh
-}                 
- 
-stop() {          
-        echo stopping...
+
+SERVICE_SCRIPT="/root/xray_service.sh"
+DELAY=90
+
+start() {
+    echo "Starting xray_service..."
+    sleep "$DELAY"
+    if [ -x "$SERVICE_SCRIPT" ]; then
+        "$SERVICE_SCRIPT" start
+        echo "xray_service started."
+    else
+        echo "Error: Service script '$SERVICE_SCRIPT' not found or not executable."
+        exit 1
+    fi
+}
+
+stop() {
+    echo "Stopping xray_service..."
+    if [ -x "$SERVICE_SCRIPT" ]; then
+        "$SERVICE_SCRIPT" stop
+        echo "xray_service stopped."
+    else
+        echo "Error: Service script '$SERVICE_SCRIPT' not found or not executable."
+        exit 1
+    fi
 }
