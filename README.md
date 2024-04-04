@@ -10,14 +10,7 @@ The instructions provided suggest installing Passwall on your device. The recomm
 
 ## Step 1 - install Xray-core
 ```
-cd /tmp
-wget https://raw.githubusercontent.com/mohamadkhalaj/xray-service/main/install.sh
-chmod +x install.sh
-sh install.sh
-```
-OR
-```
-cd /tmp && wget https://raw.githubusercontent.com/mohamadkhalaj/xray-service/main/install.sh && chmod +x install.sh && sh install.sh
+wget https://raw.githubusercontent.com/mohamadkhalaj/xray-service/main/install.sh && chmod +x install.sh && sh install.sh
 ```
 
 ## Step 2 - Apply changes
